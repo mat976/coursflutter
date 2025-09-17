@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:coursflutter/vue/home.dart';
+import 'package:coursflutter/vue/navbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(fontFamily: 'Schyler'),
-      home: const MyHomePage(),
+      home: const NavigationBarApp(),
     );
   }
 }
